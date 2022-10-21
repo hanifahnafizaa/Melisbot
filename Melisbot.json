@@ -1,0 +1,116 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan"
+        ],
+        "responses": [
+            "Hai! aku Melisbot. Gimana cape ya hari-harinya? Sama Melis juga! :(, btw kamu mau tau tentang Mental Illness ya?",
+            "Halo! Melisbot disini, salam kenal ya hihi! Mau tau tentang Mentall Ilness, kan?",
+            "Helo! Melisbot digidaw disins kuy!. Lagi kepo tentang Mental Ilness yaa?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!, jangan lupa mampir lagii!",
+          "Good bye!, INGET jangan cape cape!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati :)",
+          "Sama-sama yaa, Have a nice day bunda bundaa!"
+        ]
+      },
+
+      {"tag": "singkat",
+      "patterns": ["iya", "betul","bener"],
+      "responses": ["oke! apa yang ingin kamu ketahui?"],
+      "context": [""]
+     },
+    {"tag": "definisi",
+     "patterns": ["Apa artinya jika kita memiliki penyakit mental?", "Apa itu Mental illness","Jelaskan mental health illness"],
+     "responses": ["Mental Illness atau penyakit mental adalah kondisi kesehatan yang mengganggu pikiran, emosi, hubungan, dan fungsi sehari-hari seseorang."],
+     "context": [""]
+    },
+
+{"tag": "siapa",     
+ "patterns": ["Siapa aja yang bisa terkena mental illness"],        
+ "responses": ["Gangguan mental bisa terjadi pada siapa saja, baik orang dewasa maupun anak-anak. Bahkan, sebagian besar gangguan mental disebut terjadi pada anak-anak dan remaja di bawah usia 14 tahun. Gangguan mental pada remaja paling sering terjadi karena gangguan saraf, yaitu neuropsikiatri."],       
+  "context": [""]    
+},
+    {"tag": "penyebab",         
+ "patterns": ["Apa penyebab mental illness?","Apa yang menyebabkan seseorang terkena mental illness?","how does one get mentally ill?"],         
+ "responses": ["Belum diketahui secara pasti, namun biasanya bisa disebabkan oleh faktor genetik atau terdapat riwayat pengidap gangguan mental dalam keluarga. Kekerasan dalam rumah tangga atau pelecehan lainnya. Kekerasan pada anak atau riwayat kekerasan pada masa kanak-kanak. Memiliki kelainan senyawa kimia otak atau gangguan pada otak."],       
+ "context": [""]        
+},
+{"tag": "gejala",         
+"patterns": ["Apa saja gejala dari mental illness?"],         
+"responses": ["Gejala mental illness bisa berbeda-beda, tergantung pada penyakit dan tingkat keparahannya. Gejala-gejala ini bisa berasal dari gangguan pada emosi, pikiran, ataupun perilaku penderitanya, seperti Perasaan sedih berkepanjangan, Perubahan suasana hati yang ekstrem, Kesulitan memahami situasi atau orang lain, dan lain sebagainya"],       
+"context": [""]        
+},
+   {"tag": "pemulihan",        
+ "patterns": ["Bisakah seseorang sembuh dari mental illness ?","Apakah mungkin sembuh dari mental illness"],        
+ "responses": ["Sayangnya, belum ada obat yang dapat menyembuhkan semua gangguan mental sekaligus. Setiap orang mungkin mengalami gangguan mental yang berbeda-beda. Kamu harus memilih pengobatan atau kombinasi perawatan yang terbaik, sesuai kondisi kamu. Namun ada beberapa pengobatan yang dapat dipilih yaitu, psikoterapi, belajar bersikap postif dan sering melakukan konsultasi dengan psikolog ataupun psikiater."],       
+ "context": [""]        
+},	
+{"tag": "bantuan",
+ "patterns": ["Apa ada seseorang yang dapat membantu menyembuhkan mental illness?"],
+ "responses": ["Pada intinya, keluarga atau orang terdekat memiliki peran krusial dalam proses pemulihan."],
+ "context": [""]
+},
+{"tag": "pengobatan_pilihan",
+ "patterns": ["Pilihan perawatan apa yang tersedia??","Bagaimana seseorang bisa pulih?"],
+ "responses": ["Sama seperti ada berbagai jenis obat untuk penyakit fisik, pilihan pengobatan yang berbeda tersedia untuk individu dengan penyakit mental. Perawatan bekerja secara berbeda untuk orang yang berbeda. Penting untuk menemukan apa yang paling cocok untuk kamu atau orang lain."],
+ "context": [""]
+},
+{"tag": "tips_pengobatan",
+ "patterns": ["Apa yang harus saya ingat jika saya memulai perawatan?"],
+ "responses":["Pengobatan pertama yang dapat dilakukan adalah dalam diri sediri dan dukungan keluarga, karena itu bisa memberikan efek penyembuhan cukup efektif."],
+ "context": [""]
+},
+{"tag": "right_professional",
+ "patterns": ["Bagaimana saya bisa menemukan seseorang yang dapat menyembuhkan mental illness yang benar??","Bagaimana cara menemukan seseorang yang dapat menyembuhkan mental?"],
+ "responses":["Lakukan dengan seseorang yang kamu anggap nyaman bisa dengan dengan dirimu sendiri atau anakmu, ataupun teman dan keluargamu yang sangat memahami mu karena itu sangat penting untuk keberhasilan perawatan kamu. Menemukan seseorang yang paling sesuai dengan kebutuhan kamu mungkin memerlukan beberapa penelitian."],
+ "context": [""]
+}
+]
+}
